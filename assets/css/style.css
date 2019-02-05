@@ -94,6 +94,7 @@ body {
     background-color: white;
     min-height: 770px;
     min-width: 100%;
+    margin-top: 50px;
 }
 
 .centertext{
@@ -118,6 +119,23 @@ body {
 .name-title{
     margin-top: 30px;
 }
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+.table{
+    margin-top: 20px; 
+}
+
+.videostyle{
+    margin-top: 20px; 
+    vertical-align: text-top;
+}
+
 
 
 /*--------------------------------------------Footer*/
